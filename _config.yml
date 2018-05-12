@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: <b style='color :#007bff; font-weight:900!important;'>Jori</b><span>gamy</span>
+title: <b style='color :#007bff; font-weight:900!important;'>CatsOn</b><span>Web</span>
 email: catsonweb@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   The community that share all the cats from the web! Tag @catsonweb on Instagram to share your kitten!
@@ -42,10 +42,9 @@ navbar-logo: jorigamy-logo.svg
 author :
   name : Cats On Web
   email : catsonweb@gmail.com
-  github : jorigamy/jorigamy.github.io
+  github : catsonweb/catsonweb.github.io
   twitter : catsonweb
-  facebook: catsonweb
-  linkedin: antoniotrento
+  facebook: catsonweb  
   instagram: catsonweb
   pinterest: catsonweb
   google: https://plus.google.com/u/1/112702447404616933010
@@ -58,7 +57,7 @@ google :
     ad_client: 'ca-pub-9204963049240271' # id google ADsense (to edit other id's of google ADsense go to /_includes/JB/ads-block-html )
 
 disqus :
-    short_name : jorigamy
+    short_name : catsonweb
     # how to use
     #      {% if site.disqus.short_name %}
     #        {% include JB/disqus.html %}
@@ -67,14 +66,12 @@ disqus :
 
 # data for jekyll-seo-tags plugins
 social:
-  name: lantoniotrento
+  name: catsonweb
   links:
     - https://twitter.com/catsonweb
     - https://www.facebook.com/catsonweb
-    - https://www.linkedin.com/in/antoniotrento
-    - https://plus.google.com/u/1/112702447404616933010
-    - https://github.com/jorigamy/jorigamy.github.io
-    - https://keybase.io/antoniotrento
+    - https://plus.google.com/u/1/112702447404616933010    
+    
 twitter:
   username: catsonweb
 
@@ -85,7 +82,7 @@ facebook:
 
 mailchimp: https://altervista.us8.list-manage.com/subscribe/post?u=a36bd3e356847dab838227fce&amp;id=90d06e58d7 # the link of the embed signup form generated from mailchimp into the html code of the embed form
 
-addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
+# addthis: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a5ba11b28ce5032
 
 algolia:
   application_id: 'GU8HT2BGPU'
