@@ -4,7 +4,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light px-0">
       <a class="navbar-brand mr-5" href="{{ site.url }}">
-        <img src="{{ site.url }}/{{ site.baseurl }}assets/images/{{ site.navbar-logo }}"  alt="catsonweb - Best world cats blog">
+        <img src="{{ site.url }}/{{ site.baseurl }}assets/images/{{ site.navbar-logo }}" class="mr-2" alt="catsonweb - Best world cats blog">
         {{site.title}}
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,6 +24,7 @@
         <!-- Social Icons -->
         <ul class="header-social-icons navbar-nav ml-auto">          
           {% if site.author.github %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Fork it" href="https://github.com/{{ site.author.github }}" rel="nofollow" target="_blank"><i class="fa fa-github"></i></a></li>{% endif %}
+          {% if site.author.instagram %}<li class="nav-item"><a class="nav-link" data-toggle="tooltip" title="Share your cat" href="https://instagram.com/{{ site.author.instagram }}" rel="nofollow" target="_blank"><i class="fa fa-intagram"></i></a></li>{% endif %}          
           {% if site.author.facebook %}<li class="nav-item">
             <a class="nav-link" data-toggle="tooltip" title="Follow on facebook!" href="https://www.facebook.com/{{ site.author.facebook }}" rel="nofollow" target="_blank" title="Share on Facebook"> <i class="fa fa-facebook"></i></a>
           </li>{% endif %}
